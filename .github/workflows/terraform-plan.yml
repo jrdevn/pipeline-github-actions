@@ -1,7 +1,7 @@
 name: Terraform Plan
 on: push
   branchs:
-    - main
+    - main # q
 env:
   ARM_CLIENT_ID: ${{secrets.ARM_CLIENT_ID}}
   ARM_TENANT_ID: ${{secrets.ARM_TENANT_ID}}
